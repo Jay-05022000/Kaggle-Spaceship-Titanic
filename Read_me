@@ -44,8 +44,10 @@ Transported - The target. For each passenger, predict either True or False.
 5) Classification model selection: Seems dataset is linear in nature and training accuracy is good with linear classifiers (SVM,LR,Kernal SVM)
 
 6) Results:
-   1) SVM : Training accuracy = 0.7819
-          : model accuracy (78.36) on kaggle
+   1) SVM(linear,kernal='linear') : Training accuracy = 78.19
+                                  : model accuracy = 78.36 (on kaggle)
 
+   2) SVM(non-linear,kernel='rbf') : Training accuracy = 77.01
+                                   : Model accuracy = 79.354 (On kaggle)
 
 
